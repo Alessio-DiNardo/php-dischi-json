@@ -13,16 +13,14 @@ createApp({
             axios.get(this.apiUrl, {
                 params: {}
             })
-                .then(function (response) {
+                .then((response) => {
                     console.log(response);
+                    this.discElenc = response.data;
+                    console.log(this.discElenc)
                 })
                 .catch(function (error) {
                     console.log(error);
                 })
-                .finally(function () {
-                    // always executed
-                });
-
         }
     },
         created(){
