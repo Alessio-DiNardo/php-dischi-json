@@ -22,6 +22,12 @@ Solo a questo punto sarà utile passare alla lettura della lista da un file JSON
 <body>
     <div id="app">
 
+        <div class="container">
+            <div class="row">
+                
+            </div>
+        </div>
+
     </div>
 
 

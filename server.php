@@ -2,5 +2,5 @@
 
 $rawData = file_get_contents('./database/dischi.json');
 
-var_dump($rawData);
+    header('Content-Type application/json');
 ?>
